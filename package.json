@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npm run server && npm run client",
+    "start": "npm run server | npm run client",
     "server": "nodemon server.js --exec babel-node",
     "client": "babel-node client.js",
     "test": "echo \"Error: no test specified\" && exit 1"
